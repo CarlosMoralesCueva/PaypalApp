@@ -1,7 +1,7 @@
 Para la ejecución de este proyecto se debe contar con Node.js<br />
 En una línea de comandos como cmd, Power Shell, Git cmd o un similar ejecutar:<br />
 *git init*<br />
-*git clone* https://github.com/CarlosMoralesCueva/PaypalApp <br />
+*git* *clone* https://github.com/CarlosMoralesCueva/PaypalApp <br />
 *cd paypalApp* <br />
 *code .*	 <br />
 *npm install* <br />
