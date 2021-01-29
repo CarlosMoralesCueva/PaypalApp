@@ -31,10 +31,10 @@ Se debe crear un túnel con ngrok para que la integración con PayPal pueda cone
 Ingresando en una línea de comandos en el directorio donde se encuentra el ejecutable de ngrok:
 <br />
 
-ngrok.exe http 4000 -host-header="localhost:4000"
+**ngrok.exe http 4000 -host-header="localhost:4000"**
 <br />
 
-Se debe editar dentro de la aplicación en el archivo PaypalApp/app.js editar redirect_urls con la url obtenida en ngrok, la cual se la encontrará en el siguiente formato:
+Se debe editar dentro de la aplicación en el archivo **PaypalApp/app.js** editar **redirect_urls** con la url obtenida en ngrok, la cual se la encontrará en el siguiente formato:
 <br />
 
 https://149f225e949f.ngrok.io
